@@ -11,7 +11,7 @@ const Home = () => {
       <section className="page-shell grid min-h-[calc(100vh-6rem)] items-center gap-10 py-10 lg:grid-cols-[1fr_0.86fr]">
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }}>
           <p className="mb-5 inline-flex rounded-full border border-white/50 bg-white/60 px-4 py-2 text-sm font-bold text-slate-600 backdrop-blur-xl dark:border-white/10 dark:bg-white/10 dark:text-slate-300">
-            iOS-inspired MERN commerce
+            Modern MERN commerce platform
           </p>
           <h1 className="max-w-4xl text-5xl font-black leading-[1.02] text-slate-950 dark:text-white sm:text-6xl lg:text-7xl">
             Rajendra Store
