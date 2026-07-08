@@ -1,13 +1,82 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ecommerce-frontend</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Viewport & Mobile Optimization -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="color-scheme" content="light dark" />
+
+  <!-- SEO Optimization -->
+  <title>Rajendra Store | Premium E-Commerce Platform</title>
+  <meta name="description"
+    content="Rajendra Store - Modern MERN e-commerce platform with premium products, fast checkout, and secure payments. Shop now for the best deals." />
+  <meta name="keywords" content="e-commerce, shopping, online store, products, premium quality, fast delivery" />
+  <meta name="author" content="Rajendra Bistaray" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="English" />
+
+  <!-- Open Graph (Social Media) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ecommerce-rajendra.vercel.app/" />
+  <meta property="og:title" content="Rajendra Store | Premium E-Commerce Platform" />
+  <meta property="og:description"
+    content="Modern MERN e-commerce platform with premium products, fast checkout, and secure payments." />
+  <meta property="og:image" content="https://ecommerce-rajendra.vercel.app/og-image.png" />
+  <meta property="og:site_name" content="Rajendra Store" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rajendra Store | Premium E-Commerce Platform" />
+  <meta name="twitter:description"
+    content="Modern MERN e-commerce platform with premium products and secure payments." />
+  <meta name="twitter:image" content="https://ecommerce-rajendra.vercel.app/og-image.png" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://ecommerce-rajendra.vercel.app/" />
+
+  <!-- Preconnect to optimize performance -->
+  <link rel="preconnect" href="https://e-commerce-backend-api-0kvd.onrender.com" />
+  <link rel="dns-prefetch" href="https://e-commerce-backend-api-0kvd.onrender.com" />
+
+  <!-- Security Headers -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+  <!-- Schema.org Markup for Rich Snippets -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Rajendra Store",
+      "url": "https://ecommerce-rajendra.vercel.app",
+      "description": "Modern MERN e-commerce platform with premium products and secure payments",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://ecommerce-rajendra.vercel.app/products?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+
+  <!-- No-Script Fallback -->
+  <noscript>
+    <p>This application requires JavaScript to be enabled. Please enable JavaScript in your browser settings.</p>
+  </noscript>
+</body>
+
 </html>
